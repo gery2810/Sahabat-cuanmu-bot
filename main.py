@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 from telegram.constants import ParseMode
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8233135065:AAGGTHfUNJBYVAO4s2uxaDIiThb7V4_xGi0")
 app = FastAPI()
 application = Application.builder().token(BOT_TOKEN).build()
 
